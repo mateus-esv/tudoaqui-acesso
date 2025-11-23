@@ -6,20 +6,22 @@ import Icon1 from './assets/icons/whatsapp.png'
 import Icon2 from './assets/icons/instagram.png'
 import Icon3 from './assets/icons/gmail.png'
 import Main from './components/main/Main'
+import Search from './components/forms/Search'
 
 
 function App() {
-  
+
   return (
     <>
-      <Navbar 
-        image={IconTudoAqui} 
+      <Navbar
+        image={IconTudoAqui}
         imageWidth={null}
-        imageHeight={null}  
-        placeholder="Pesquisar comércio"  
+        imageHeight={null}
+        placeholder="Pesquisar comércio"
         titleButton="Pesquisar"
         backgroundColor="rgb(110, 35, 160)"
-      />      
+      />
+      {/* <Search placeholder="Buscar comércios" titleButton="Pesquisar" /> */}
       <Main />
       <Footer
         backgroundColor="#6E23A0"

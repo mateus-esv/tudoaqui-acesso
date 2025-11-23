@@ -1,10 +1,11 @@
 import Banner1 from "../../assets/banner1.jpg";
 import Banner2 from "../../assets/banner2.png";
 import Banner3 from "../../assets/banner3.png";
+import "./Carousel.css"
 
 const Carousel = (props) => {
     return (
-        <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel" style={{margin: "30px auto", width:"90%"}}>
+        <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel" style={{margin: "30px auto", width:"75%"}}>
             <ol className="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>

@@ -17,12 +17,6 @@ const Navbar = ({ image, imageWidth, imageHeight, placeholder, titleButton, back
                         />
                     </a>
 
-                    {/* FORM DESKTOP */}
-                    <form className="d-none d-md-flex form-inline">
-                        <input className="form-control me-2" type="search" placeholder={placeholder} />
-                        <button style={{backgroundColor:"#ff6b21", outlineColor:"orange", border:"none"}} className="btn btn-success">{titleButton}</button>
-                    </form> 
-
                 </div>
             </nav>
 

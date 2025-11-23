@@ -1,0 +1,8 @@
+
+/* ===== RESPONSIVO (MOBILE) ===== */
+@media (max-width: 768px) {
+
+    #carouselExampleIndicators{
+        width: 90% !important;
+    }
+}
