@@ -4,7 +4,7 @@ import Banner3 from "../../assets/banner3.png";
 
 const Carousel = (props) => {
     return (
-        <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel" style={{margin: "30px auto", width:"70%"}}>
+        <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel" style={{margin: "30px auto", width:"90%"}}>
             <ol className="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
