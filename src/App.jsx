@@ -5,6 +5,7 @@ import Footer from './components/footer/Footer'
 import Icon1 from './assets/icons/whatsapp.png'
 import Icon2 from './assets/icons/instagram.png'
 import Icon3 from './assets/icons/gmail.png'
+import Main from './components/main/Main'
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         titleButton="Pesquisar"
         backgroundColor="rgb(110, 35, 160)"
       />      
+      <Main />
       <Footer
         backgroundColor="#6E23A0"
         image={IconTudoAqui}

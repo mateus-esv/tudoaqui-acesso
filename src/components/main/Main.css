@@ -1,0 +1,45 @@
+/* ===== LAYOUT PADRÃO (DESKTOP) ===== */
+.main-layout {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.sidebar-container {
+    width: 280px;
+    min-height: 100vh;
+}
+
+#div-main-cards-business {
+    width: calc(100% - 280px);
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* ===== RESPONSIVO (MOBILE) ===== */
+@media (max-width: 768px) {
+
+    .main-layout {
+        flex-direction: column;   /* Sidebar sobe */
+        align-items: center;
+    }
+
+    .sidebar-container {
+        width: 100% !important;
+        min-height: auto;         /* REMOVE ALTURA DE 100VH */
+        border-right: none;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 10px;
+    }
+
+    #div-main-cards-business {
+        width: 100%;
+        margin: 10px auto;       /* REMOVE ESPAÇAMENTO GIGANTE */
+        justify-content: center;
+        gap: 15px;
+    }
+}
